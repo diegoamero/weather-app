@@ -29,6 +29,7 @@ function WeatherMainInfo({ weather }) {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                className='mainInfo--maps'
             ></iframe>
         </div>
     )
