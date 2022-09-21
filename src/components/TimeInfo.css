@@ -1,0 +1,13 @@
+.TimeInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.TimeInfo--day{
+    font-size: 20px;
+}
+
+.TimeInfo--time{
+    font-size: 40px;
+    font-weight: bolder;
+}
