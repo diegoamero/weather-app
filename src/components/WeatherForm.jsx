@@ -18,7 +18,7 @@ function WeatherForm({onChangeCity}) {
     }
 
     return <form onSubmit={handleSubmit} className='form'>
-        <input type="text" onChange={onChange} className='form__input'/>
+        <input type="text" onChange={onChange} className='form__input' placeholder='Type a city name'/>
     </form>
 }
 

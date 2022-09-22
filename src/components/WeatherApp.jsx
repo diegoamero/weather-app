@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import WeatherForm from './WeatherForm'
 import WeatherMainInfo from './WeatherMainInfo'
+import Loading from './Loading'
 import './WeatherApp.css'
 
 function WeatherApp() {
@@ -37,7 +38,7 @@ function WeatherApp() {
     //en caso de que no esté dicha propiedad
     return <div className='weatherApp'>
         <WeatherForm onChangeCity={handleChangeCity}/>
-        <WeatherMainInfo weather={weather}/>
+        {weather ? <WeatherMainInfo weather={weather}/> : <Loading/>}
     </div>
 }
 
