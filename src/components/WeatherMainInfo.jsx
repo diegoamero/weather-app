@@ -28,6 +28,7 @@ function WeatherMainInfo({ weather }) {
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
+                title='location in Maps'
                 referrerPolicy="no-referrer-when-downgrade"
                 className='mainInfo--maps'
             ></iframe>

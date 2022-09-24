@@ -30,7 +30,8 @@ function TimeInfo({localTime}) {
             case 6:
                 dayName = 'Saturday'
                 break
-
+            default: 
+                break
         }
 
     return <div className='TimeInfo'>
